@@ -10,3 +10,7 @@ docker run -it -e DISPLAY \
            --rm \
            bperel/aegisub-jessie aegisub-3.1
 ```
+
+## Known issues
+
+A Boost-related blocking error is triggered if the user attempts to open a file whose path contains special characters
